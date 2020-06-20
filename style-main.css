@@ -40,8 +40,6 @@ div#my-info {
 div#image {
     width: 60%;
     max-width: 800px;
-    
-
 }
 
 button {
@@ -53,7 +51,11 @@ button {
     font-size: 1.5em;
     padding: 0.5em;
     min-width: 7.5em;
-    
+}
+
+button:hover {
+    border: 3px solid #4f514f;
+    font-style: bold;
 }
 
 .buttons {
@@ -61,13 +63,6 @@ button {
     justify-content: space-around;
     /* padding: 3px; */
 }
-
-button:hover {
-    border: 3px solid #4f514f;
-    font-style: bold;
-
-}
-
 
 img {
     max-width: 100%;

@@ -33,7 +33,8 @@ div {
 div#my-info {
     position: relative;
     left: -150px;
-    width: 540px;
+    min-width: 540px;
+    max-width: 560px;
 }
 
 div#image {

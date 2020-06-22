@@ -82,7 +82,7 @@ div#main-body {
 
 button {
     background-color: #fff3d6;
-    border: 3px solid #fff3d6;
+    border: 2px solid #4f514f;
     border-radius: 5px;
     color: #4f514f;
     font-family: 'Titan One';
@@ -92,6 +92,25 @@ button {
 }
 
 button:hover {
-    border: 3px solid #4f514f;
+    border: 2px solid #4f514f;
     font-style: bold;
+    background-color: #4f514f;
+    color: #fff3d6;
+}
+
+
+footer {
+    background-color: #46d68f;
+    color: #4f514f;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 35px;
+    width: 100%;
+    font-family: Indie Flower;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    
 }

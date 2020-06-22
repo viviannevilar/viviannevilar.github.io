@@ -44,7 +44,7 @@ div#image {
 
 button {
     background-color: #fff3d6;
-    border: 3px solid #fff3d6;
+    border: 2px solid #fff3d6;
     border-radius: 5px;
     color: #4f514f;
     font-family: 'Titan One';
@@ -54,8 +54,10 @@ button {
 }
 
 button:hover {
-    border: 3px solid #4f514f;
+    border: 2px solid #4f514f;
     font-style: bold;
+    background-color: #4f514f;
+    color: #fff3d6;
 }
 
 .buttons {

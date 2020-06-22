@@ -2,7 +2,7 @@
 form {
     margin: 150px auto;
     width: 60%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .form-item {
@@ -37,7 +37,6 @@ form {
 
 .form-item input,
 .form-item textarea
-/* .form-item button  */
 {
     /* border: 2px solid #FDDC5C; */
     background-color: #FFF;
@@ -45,12 +44,11 @@ form {
     font-size: 18px;
 }
 
-/* .form-item button:hover {
-    background-color: #FA4224;
-    color: #FFF;
-} */
-
-
+.form-item input:focus,
+.form-item textarea:focus {
+    /* border: 2px solid #46d68f; */
+    outline: 3px solid #46d68f;
+}
 
 textarea {
     min-height: 250px;

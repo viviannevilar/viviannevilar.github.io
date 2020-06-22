@@ -17,15 +17,10 @@ header {
     position: fixed;
     top: 0px;
     left: 0px;
-
-
-    /* width:100%;overflow:hidden;height:44px */
 }
 
 header div {
     display: flex;
-    
-
 }
 
 img {
@@ -47,12 +42,10 @@ nav {
     font-family: Indie Flower;
     font-size: 1.5em;
     text-decoration: none;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-left: 2em;
     width: 40%;
     justify-content: space-evenly;
-
-
 }
 
 a {
@@ -72,7 +65,6 @@ a:visited {
 div#header-name {
     display: flex;
     align-self: center; /*bottom instead of top*/
-
 }
 
 div#main-body {
@@ -112,5 +104,4 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 15pt;
-    
 }

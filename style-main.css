@@ -17,6 +17,7 @@ html {
 
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 100%;
     /* max-width: 1350px; */
@@ -32,7 +33,6 @@ p {
     font-size: 2em;
     font-family: 'Indie Flower', cursive;
 }
-
 
 div#my-info {
     position: relative;
@@ -78,3 +78,20 @@ button:hover {
     /* padding: 3px; */
 }
 
+
+
+
+/****** Changed styles ******/
+
+
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) {
+    body {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        height: 100%;
+        /* max-width: 1350px; */
+        }
+    
+} 

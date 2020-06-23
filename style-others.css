@@ -23,7 +23,7 @@ header div {
     display: flex;
 }
 
-img {
+header div img {
     max-width: 75px;
     max-height: 100%;
     padding-top: 3px;
@@ -67,9 +67,7 @@ div#header-name {
     align-self: center; /*bottom instead of top*/
 }
 
-div#main-body {
-    margin-top: 100px;
-}
+
 
 
 button {
@@ -90,6 +88,11 @@ button:hover {
     color: #fff3d6;
 }
 
+p {
+    font-family: Indie Flower;
+    font-size: 1.5em;
+    color: #4f514f;
+}
 
 footer {
     background-color: #46d68f;
@@ -103,5 +106,37 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15pt;
+    font-size: 12pt;
 }
+
+div#main-body {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+div#about-me-pic {
+    width: 450px;
+}
+
+div#about-me-pic img {
+    border: 3px solid #4f514f;
+    border-radius: 5px;
+    /* margin: 4pt; */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    min-width: 300px;
+}
+    
+div#about-me-text {
+    width: 500px;
+    border: 3px solid #4f514f;
+    border-radius: 5px;
+    margin: 4pt;
+    background-color: white;
+    padding: 10px;
+}
+

@@ -86,7 +86,7 @@ button:hover {
 
 
 /* Media Query for Laptops and Desktops */ 
-@media (min-width: 1025px) {
+@media (min-width: 1081px) {
     body {
         display: flex;
         flex-direction: row; 

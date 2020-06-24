@@ -11,6 +11,7 @@ html {
     font-family: 'Titan+One', 'Indie+Flower', sans-serif;
     background-color: var(--main-colour);
     color: var(--sec-colour);
+    /* font-size: 1vw; */
 }
 
 body {
@@ -71,20 +72,27 @@ button:hover {
 /********************** MEDIA QUERIES **********************/
 
 /* Media Query for screens up to iPhone 6 - Landscape */
-/* @media only screen and (max-device-width: 374px) and (orientation: landscape) {
+@media only screen and (max-device-width: 750px) and (orientation: landscape) {
 
     body {
         flex-direction: row; 
         align-items: center;
-        height: 100%;
-        /* max-width: 1350px; */
-    /* } */
+        justify-content: space-around;
+    }
 
-/* } */ 
+    img#main-img {
+        max-height: 95vh;
+        object-fit: contain; 
+    }
+
+    div#my-info {
+        position: relative;
+        left: -50px;
+    }
+} 
 
 
-
-/* Media Query for screens from iPhone 6 up */ 
+/* Media Query for screens from iPhone 6 up - portrait */ 
 @media only screen and (min-device-width: 375px) and (max-device-width: 481px) and (orientation: portrait){
     h1 {
         font-size: 2.5em;
@@ -116,7 +124,11 @@ button:hover {
     }
 
     img#main-img {
-        max-height: 500px;
+        max-height: 60vh;
+    }
+
+    div#my-info {
+        width: 80vw;
     }
 }
 
@@ -131,11 +143,8 @@ button:hover {
 /* Media Query for Laptops and Desktops */ 
 @media only screen and (min-device-width: 851px) {
     body {
-        display: flex;
         flex-direction: row; 
-        align-items: center;
         height: 100%;
-        /* max-width: 1350px; */
     }
 
     div#my-info {

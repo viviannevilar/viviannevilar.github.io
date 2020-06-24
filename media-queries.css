@@ -1,4 +1,4 @@
-        /* Media Query for Mobile Devices */ 
+    /* Media Query for Mobile Devices */ 
         @media (max-width: 480px) { 
             body { 
                 background-color: red; 

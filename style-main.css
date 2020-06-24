@@ -128,7 +128,7 @@ button:hover {
 /****** Changed styles ******/
 /* This is my old design */
 /* Media Query for Laptops and Desktops */ 
-@media only screen and (min-width: 851px) {
+@media only screen and (min-device-width: 851px) {
     body {
         display: flex;
         flex-direction: row; 

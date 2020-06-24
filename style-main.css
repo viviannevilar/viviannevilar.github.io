@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-
 :root {
     --main-colour: #46d68f;
     --bg-colour: #fff3d6;
     --sec-colour: #4f514f;
-  }
-
+}
 
 html {
     font-family: 'Titan+One', 'Indie+Flower', sans-serif;
@@ -20,39 +18,29 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 100%; */
-    /* max-width: 1350px; */
-    }
+}
 
 h1 {
     font-family: 'Titan One';
     font-size: 2em;
     text-align: center;
-    }
-
-p {
-    font-size: 1em;
-    font-family: 'Indie Flower', cursive;
 }
 
-div#my-info {
-    /* position: relative; */
-    /* left: -150px; */
-    /* min-width: 540px; */
-    /* max-width: 560px; */
+p {
+    font-size: 1.2em;
+    font-family: 'Indie Flower', cursive;
 }
 
 div#image {
     width: 80%;
-    /* max-width: 600px; */
-    /* min-width: 400px; */
+    display: flex;
+    justify-content: center;
 }
 
 img#main-img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 350px;
     object-fit: contain; 
-    /* display: block; remove extra space below image */
 }
 
 button {
@@ -76,15 +64,54 @@ button:hover {
 .buttons {
     display: flex;
     justify-content: space-around;
-    /* padding: 3px; */
+}
+
+
+/********************** MEDIA QUERIES **********************/
+
+/* Media Query for screens from iPhone 6 up */ 
+@media only screen and (min-width: 375px) and (max-width: 481px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    p {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 1.3em;
+        min-width: 7em;
+    }
+}
+
+
+/* Media Query for tablets */ 
+@media only screen and (min-width: 482px) and (max-width: 850px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    p {
+        font-size: 2em;
+    }
+
+    button {
+        font-size: 1.8em;
+        min-width: 8em;
+    }
+
+    img#main-img {
+        max-height: 500px;
+    }
 }
 
 
 
 
+
 /****** Changed styles ******/
-
-
+/* This is my old design */
 /* Media Query for Laptops and Desktops */ 
 @media only screen and (min-width: 800px) {
     body {

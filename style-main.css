@@ -70,7 +70,7 @@ button:hover {
 /********************** MEDIA QUERIES **********************/
 
 /* Media Query for screens up to iPhone 6 - Landscape */
-@media only screen and (max-device-width: 374px) and (orientation: landscape) {
+/* @media only screen and (max-device-width: 374px) and (orientation: landscape) {
 
     body {
         flex-direction: row; 
@@ -79,13 +79,12 @@ button:hover {
         /* max-width: 1350px; */
     }
 
-}
-
+} */
 
 
 
 /* Media Query for screens from iPhone 6 up */ 
-@media only screen and (min-width: 375px) and (max-width: 481px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 481px) and (orientation: portrait){
     h1 {
         font-size: 2.5em;
     }
@@ -101,7 +100,7 @@ button:hover {
 }
 
 /* Media Query for tablets */ 
-@media only screen and (min-width: 482px) and (max-width: 850px) {
+@media only screen and (min-device-width: 482px) and (max-device-width: 850px) and (orientation: portrait) {
     h1 {
         font-size: 3em;
     }

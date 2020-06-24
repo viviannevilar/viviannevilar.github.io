@@ -69,6 +69,21 @@ button:hover {
 
 /********************** MEDIA QUERIES **********************/
 
+/* Media Query for screens up to iPhone 6 - Landscape */
+@media only screen and (max-device-width: 374px) and (orientation: landscape) {
+
+    body {
+        flex-direction: row; 
+        align-items: center;
+        height: 100%;
+        /* max-width: 1350px; */
+    }
+
+}
+
+
+
+
 /* Media Query for screens from iPhone 6 up */ 
 @media only screen and (min-width: 375px) and (max-width: 481px) {
     h1 {
@@ -84,7 +99,6 @@ button:hover {
         min-width: 7em;
     }
 }
-
 
 /* Media Query for tablets */ 
 @media only screen and (min-width: 482px) and (max-width: 850px) {
@@ -110,10 +124,12 @@ button:hover {
 
 
 
+
+
 /****** Changed styles ******/
 /* This is my old design */
 /* Media Query for Laptops and Desktops */ 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 851px) {
     body {
         display: flex;
         flex-direction: row; 

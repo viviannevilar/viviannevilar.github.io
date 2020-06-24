@@ -26,12 +26,12 @@ body {
 
 h1 {
     font-family: 'Titan One';
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     }
 
 p {
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -43,15 +43,15 @@ div#my-info {
 }
 
 div#image {
-    width: 60%;
-    max-width: 600px;
-    min-width: 400px;
+    width: 80%;
+    /* max-width: 600px; */
+    /* min-width: 400px; */
 }
 
 img#main-img {
     max-width: 100%;
     max-height: 100%;
-    /* object-fit: contain;  */
+    object-fit: contain; 
     /* display: block; remove extra space below image */
 }
 
@@ -61,9 +61,9 @@ button {
     border-radius: 5px;
     color: var(--sec-colour);
     font-family: 'Titan One';
-    font-size: 1.5em;
-    padding: 0.5em;
-    min-width: 7.5em;
+    font-size: 1em;
+    padding: 0.2em;
+    min-width: 5em;
 }
 
 button:hover {
@@ -86,7 +86,7 @@ button:hover {
 
 
 /* Media Query for Laptops and Desktops */ 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 800px) {
     body {
         display: flex;
         flex-direction: row; 
@@ -124,5 +124,29 @@ button:hover {
         font-size: 2em;
         font-family: 'Indie Flower', cursive;
     }
+
+    button {
+        background-color: var(--bg-colour);
+        border: 2px solid var(--bg-colour);;
+        border-radius: 5px;
+        color: var(--sec-colour);
+        font-family: 'Titan One';
+        font-size: 1.5em;
+        padding: 0.5em;
+        min-width: 7.5em;
+    }
     
+    button:hover {
+        border: 2px solid var(--sec-colour);
+        font-style: bold;
+        background-color: #4f514f;
+        color: var(--bg-colour);;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        /* padding: 3px; */
+    }
+        
 } 

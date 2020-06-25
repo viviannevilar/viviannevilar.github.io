@@ -60,7 +60,7 @@ button:hover {
     border: 2px solid var(--sec-colour);
     font-style: bold;
     background-color: #4f514f;
-    color: var(--bg-colour);;
+    color: var(--bg-colour);
 }
 
 .buttons {
@@ -71,8 +71,8 @@ button:hover {
 
 /********************** MEDIA QUERIES **********************/
 
-/* Media Query for screens up to iPhone 6 - Landscape */
-@media only screen and (max-device-width: 750px) and (orientation: landscape) {
+/* Media Query for phones - Landscape */
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
 
     body {
         flex-direction: row; 
@@ -166,7 +166,7 @@ button:hover {
         font-size: 4em;
         text-align: center;
     }
-    
+
     p {
         font-size: 2em;
         font-family: 'Indie Flower', cursive;

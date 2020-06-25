@@ -8,27 +8,17 @@ form {
 .form-item {
     display: flex;
     flex-direction: column;    
-    /* flex-wrap: wrap; */
-    /* justify-content: flex-end; */
-    /* align-items: flex-start; */
     padding: 1em;
-    
 }
 
 .form-item label {
-    /* flex-basis: 150px; */
-    font-size: 3em;
-    /* padding-right: 2em; */
+    font-size: 4em;
     font-family: Indie Flower;
-    /* min-width: 3em; */
-    border: 2px solid red;   
-    /* text-justify: right; */
 }
 
 .form-item input,
 .form-item textarea {
     min-width: 90%;
-    /* flex-basis: 80%; */
     border: 2px solid #4f514f;
     border-radius: 5px;
 }
@@ -41,12 +31,9 @@ form {
 .form-item input,
 .form-item textarea
 {
-    /* border: 2px solid #FDDC5C; */
     background-color: #FFF;
     padding: 5px;
     font-size: 3em;
-    /* width: 500px; */
-    /* min-width: 500px; */
 }
 
 .form-item input:focus,
@@ -55,11 +42,14 @@ form {
 }
 
 textarea {
-    min-height: 30em;
+    min-height: 25em;
     resize: none;
 }
 
-
+.form-item button {
+    width: 7em;
+    align-self: flex-end;
+}
 
 
 

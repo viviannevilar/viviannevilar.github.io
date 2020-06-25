@@ -1,5 +1,85 @@
 
 form {
+    margin: 0em auto;
+    display: block;
+    width: 100%;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;    
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-start; */
+    padding: 1em;
+    
+}
+
+.form-item label {
+    /* flex-basis: 150px; */
+    font-size: 3em;
+    /* padding-right: 2em; */
+    font-family: Indie Flower;
+    /* min-width: 3em; */
+    border: 2px solid red;   
+    /* text-justify: right; */
+}
+
+.form-item input,
+.form-item textarea {
+    min-width: 90%;
+    /* flex-basis: 80%; */
+    border: 2px solid #4f514f;
+    border-radius: 5px;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #4f514f;;
+}
+
+.form-item input,
+.form-item textarea
+{
+    /* border: 2px solid #FDDC5C; */
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 3em;
+    /* width: 500px; */
+    /* min-width: 500px; */
+}
+
+.form-item input:focus,
+.form-item textarea:focus {
+    outline: 3px solid #46d68f;
+}
+
+textarea {
+    min-height: 30em;
+    resize: none;
+}
+
+
+
+
+
+/******************************************************************/
+/********************** MEDIA QUERIES ***********************/
+/******************************************************************/
+
+
+
+
+
+
+
+
+/********************** OLD ***********************/
+
+
+/* Media Query for Laptops and Desktops */ 
+@media only screen and (min-device-width: 851px) {
+form {
     margin: 100px auto;
     display: block;
 }
@@ -53,4 +133,6 @@ form {
 textarea {
     min-height: 350px;
     resize: none;
+}
+
 }

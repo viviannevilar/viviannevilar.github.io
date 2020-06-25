@@ -1,3 +1,6 @@
+/* This file defines the styles for the header, footer, nav, etc. 
+The main styles to be used in all pages except the index.html */
+
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
@@ -5,9 +8,162 @@ html {
     font-family: 'Titan+One', 'Indie+Flower', sans-serif;
     background-color: #fff3d6;
     color: #4f514f;
+    font-size: 1vw; 
+}
+
+/********** HEADER, FOOTER **********/
+header {
+    width: 100%;
+    max-height: 15em;
+    background: #46d68f;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+}
+
+header div img {
+    max-width: 12em;
+    max-height: 90%;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    object-fit: contain; 
+    /* display: block; remove extra space below image */
+}
+
+div#header-name {
+    display: flex;
+    justify-content: center;
+    align-self: center; /*bottom instead of top*/
+}
+
+div#header-name h2 {
+    display: none;
+}
+
+footer {
+    background-color: #46d68f;
+    color: #4f514f;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 3.5em;
+    width: 100%;
+    font-family: Indie Flower;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
 }
 
 
+
+/********** NAV AND LINKS **********/
+nav {
+    display: none;
+}
+
+nav a {
+    display: none;
+}
+
+a {
+    color: #4f514f;
+    padding: 1px;
+    font-style: none;
+}
+
+a:visited {
+    color: #fff3d6;;
+  }
+
+
+/********** BUTTONS **********/
+
+button {
+    background-color: #fff3d6;
+    border: 2px solid #4f514f;
+    border-radius: 5px;
+    color: #4f514f;
+    font-family: 'Titan One';
+    font-size: 1em;
+    padding: 0.2em;
+    min-width: 5em;
+}
+
+button:hover {
+    border: 2px solid #4f514f;
+    font-style: bold;
+    background-color: #4f514f;
+    color: #fff3d6;
+}
+
+
+/********** MAIN BODY, P, H1, ETC **********/
+
+div#main-body {
+    margin-top: 18em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+p {
+    font-family: Indie Flower;
+    font-size: 1.5em;
+    color: #4f514f;
+}
+h2 {
+    font-family: Titan One;
+    font-size: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************/
+/************************* MEDIA QUERIES **************************/
+/******************************************************************/
+
+
+
+
+
+
+
+
+/********************** OLD ***********************/
+
+
+/* Media Query for Laptops and Desktops */ 
+
+@media only screen and (min-device-width: 851px) {
 header {
     width: 100%;
     height: 90px;
@@ -69,6 +225,7 @@ div#header-name {
 
 
 
+/********** BUTTONS **********/
 
 button {
     background-color: #fff3d6;
@@ -76,9 +233,9 @@ button {
     border-radius: 5px;
     color: #4f514f;
     font-family: 'Titan One';
-    font-size: 1.5em;
-    padding: 0.5em;
-    min-width: 7.5em;
+    font-size: 1em;
+    padding: 0.2em;
+    min-width: 5em;
 }
 
 button:hover {
@@ -140,3 +297,4 @@ div#about-me-text {
     padding: 10px;
 }
 
+}

@@ -133,13 +133,7 @@ button:hover {
 }
 
 
-
-
-
-
-
 /****** Changed styles ******/
-/* This is my old design */
 /* Media Query for Laptops and Desktops */ 
 @media only screen and (min-device-width: 851px) {
     body {
@@ -172,6 +166,7 @@ button:hover {
         font-size: 4em;
         text-align: center;
     }
+    
     p {
         font-size: 2em;
         font-family: 'Indie Flower', cursive;

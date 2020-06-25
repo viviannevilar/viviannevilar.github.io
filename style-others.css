@@ -113,7 +113,6 @@ div#main-body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 
 p {
@@ -140,10 +139,40 @@ h1 {
 /******************************************************************/
 
 
+/* Media Query for phones - Landscape */
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
 
+    header {
+        max-height: 8em;
+    }
+    
+    header div a img {
+        max-width: 6em;
+    }
 
+    h1 {
+        font-family: Titan One;
+        font-size: 3em;
+    }
 
-
+    div#main-body {
+        margin-top: 6.5em;
+    }
+    
+    footer {
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+    }
+    
+    div#main-body {
+        margin-bottom: 4em;
+    }
+    
+   
+}
 
 
 /********************** OLD ***********************/

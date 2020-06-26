@@ -55,13 +55,19 @@ textarea {
 
 
 /* Media Query for phones - Landscape */
-@media only screen and (max-device-width: 900px) and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
+    form {
+        justify-self: center;
+        width: initial;
+    }
+
     .form-item {
         flex-direction: row;    
         justify-content: flex-end;
         /* max-width: 90vw; */
         border: 2px solid red;
         margin-left: 1em;
+        width: 80vw;
     }
     
     .form-item input,
@@ -83,6 +89,38 @@ textarea {
 
     .form-item button {
         width: 7em;
+    }
+}
+
+
+/* Media Query for ipads - Landscape */
+@media only screen and (min-device-width: 900px) and (orientation: landscape) {
+    .form-item {
+        flex-direction: row;    
+        justify-content: flex-end;
+        margin-left: 1em;
+    }
+    
+    .form-item input,
+    .form-item textarea {
+        padding: 0.2em;
+        font-size: 2em;
+        /* max-width: 80%; */
+    }
+    
+    .form-item label {
+        font-size: 2.5em;
+        min-width: 4em;
+        border: 2px solid red;
+    }
+
+    textarea {
+        min-height: 15em;
+        resize: none;
+    }
+
+    .form-item button {
+        width: 7em;
         /* justify-content: flex-end; */
         /* justify-self: flex-end; */
     }
@@ -91,13 +129,11 @@ textarea {
 
 
 
-
-
 /********************** OLD ***********************/
 
 
 /* Media Query for Laptops and Desktops */ 
-@media only screen and (min-device-width: 851px) {
+@media only screen and (min-device-width: 2000px) {
 form {
     margin: 100px auto;
     display: block;

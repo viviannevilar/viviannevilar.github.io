@@ -34,8 +34,8 @@ p {
 
 div#image {
     width: 80%;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 img#main-img {

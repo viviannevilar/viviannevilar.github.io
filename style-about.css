@@ -1,12 +1,12 @@
 
 
 
-div#about-me-pic {
-    width: 30em;
+div.about-me-pic {
+    width: 40em;
     object-fit: contain;
 }
 
-div#about-me-pic img {
+div.about-me-pic img {
     border: 3px solid #4f514f;
     border-radius: 5px;
     /* margin: 4pt; */
@@ -20,9 +20,19 @@ div#about-me-text {
     /* width: 500px; */
     border: 3px solid #4f514f;
     border-radius: 5px;
-    margin: 4pt;
+    margin: 3em;
     background-color: white;
-    padding: 10px;
+    padding: 1em 5em;
+
 }
 
 
+div#main-body {
+    margin-top: 13em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 9em;
+}

@@ -123,8 +123,9 @@ div#main-body {
 
 p {
     font-family: Indie Flower;
-    font-size: 3em;
+    font-size: 4em;
     color: #4f514f;
+    text-align: justify;
 }
 
 footer p {

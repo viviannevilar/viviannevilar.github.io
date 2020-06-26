@@ -43,12 +43,13 @@ div#about-me-text {
     div.about-me-pic {
         width: 25em;
     }
-
     
 }
 
 
-@media only screen and (min-device-width: 851px) {
+
+/* Media Query for Laptops and Desktops */ 
+@media only screen and (min-device-width: 1040px) {
     
     div#about-me-text {
         width: 40%;

@@ -46,3 +46,20 @@ div#about-me-text {
 
     
 }
+
+
+@media only screen and (min-device-width: 851px) {
+    
+    div#about-me-text {
+        width: 40%;
+    }
+
+    div.about-me-pic {
+        width: 22%;
+    }
+
+    #pic1 {
+        order: -1;
+    }
+
+}

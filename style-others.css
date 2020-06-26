@@ -26,16 +26,13 @@ header {
 header div {
     display: flex;
     justify-content: center;
-    /* max-height: 100%; */
 }
 
 header div a img {
     max-width: 10em;
-    /* max-height: 90%; */
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     object-fit: contain; 
-    /* display: block; remove extra space below image */
 }
 
 div#header-name {
@@ -97,7 +94,7 @@ button {
     border-radius: 5px;
     color: #4f514f;
     font-family: 'Titan One';
-    font-size: 3em;
+    font-size: 2em;
     padding: 0.2em;
     min-width: 5em;
 }
@@ -115,7 +112,6 @@ button:hover {
 div#main-body {
     margin-top: 13em;
     display: flex;
-    flex-direction: column;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -131,14 +127,11 @@ p {
 }
 
 footer p {
-    /* font-family: Indie Flower; */
     font-size: 1.5em;
-    /* color: #4f514f; */
 }
 
 h2 {
     font-family: Titan One;
-    font-size: 2.5em;
 }
 
 h1 {
@@ -150,7 +143,6 @@ footer div {
     position: absolute;
     right: 2px;
     bottom: 0px;
-
 }
 
 
@@ -180,7 +172,6 @@ footer div {
     div#main-body {
         margin-top: 9em;
         margin-bottom: 4em;    
-
     }
     
     footer {
@@ -197,7 +188,7 @@ footer div {
 
     p {
         font-size: 2.7em;
-        margin: 0;
+        margin: 0.4em;
     }
 
 
@@ -239,143 +230,34 @@ footer div {
 }
 
 
-/********************** OLD ***********************/
-
-
-/* Media Query for Laptops and Desktops */ 
-
-@media only screen and (min-device-width: 2000px) {
-header {
-    width: 100%;
-    height: 90px;
-    background: #46d68f;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-}
-
-header div {
-    display: flex;
-}
-
-header div img {
-    max-width: 75px;
-    max-height: 100%;
-    padding-top: 3px;
-    object-fit: contain; 
-    /* display: block; remove extra space below image */
-}
-
-h2 {
-    font-family: Titan One;
-    font-size: 2.5em;
-}
-
-nav {
-    display: flex;
-    align-self: flex-end; /*bottom instead of top*/
-    font-family: Indie Flower;
-    font-size: 1.5em;
-    text-decoration: none;
-    /* border: 2px solid red; */
-    padding-left: 2em;
-    width: 40%;
-    justify-content: space-evenly;
-}
-
-a {
-    color: #4f514f;
-    padding: 1px;
-    font-style: none;
-}
-
-a:visited {
-    color: #fff3d6;;
-  }
-
-/* div { */
-    /* border: 2px solid red; */
-/* } */
-
-div#header-name {
-    display: flex;
-    align-self: center; /*bottom instead of top*/
-}
-
-
-
-/********** BUTTONS **********/
-
-button {
-    background-color: #fff3d6;
-    border: 2px solid #4f514f;
-    border-radius: 5px;
-    color: #4f514f;
-    font-family: 'Titan One';
-    font-size: 1em;
-    padding: 0.2em;
-    min-width: 5em;
-}
-
-button:hover {
-    border: 2px solid #4f514f;
-    font-style: bold;
-    background-color: #4f514f;
-    color: #fff3d6;
-}
-
-p {
-    font-family: Indie Flower;
-    font-size: 1.5em;
-    color: #4f514f;
-}
-
-footer {
-    background-color: #46d68f;
-    color: #4f514f;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    height: 35px;
-    width: 100%;
-    font-family: Indie Flower;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12pt;
-}
-
-div#main-body {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-div#about-me-pic {
-    width: 450px;
-}
-
-div#about-me-pic img {
-    border: 3px solid #4f514f;
-    border-radius: 5px;
-    /* margin: 4pt; */
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    min-width: 300px;
-}
+@media only screen and (min-device-width: 851px) {
     
-div#about-me-text {
-    width: 500px;
-    border: 3px solid #4f514f;
-    border-radius: 5px;
-    margin: 4pt;
-    background-color: white;
-    padding: 10px;
-}
+    p {
+        font-size: 1.8em;
+    }
+
+    header {
+        max-height: 5em;
+    }
+
+    header div a img {
+        max-width: 4em;
+    }
+
+    footer {
+        height: 2em;
+        font-size: 1.2em;
+    }
+
+    i {
+        font-size: 1.4em;
+        color: #4f514f;
+    }
+
+    div#main-body {
+        margin-top: 3.8em;
+        margin-bottom: 3em;        
+    }
+
 
 }

@@ -116,6 +116,8 @@ div#main-body {
     margin-top: 13em;
     display: flex;
     flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 9em;
@@ -176,7 +178,9 @@ footer div {
     }
 
     div#main-body {
-        margin-top: 6.5em;
+        margin-top: 9em;
+        margin-bottom: 4em;    
+
     }
     
     footer {
@@ -185,25 +189,53 @@ footer div {
         font-size: 1.4em;
         justify-content: center;        
     }
-    
-    div#main-body {
-        margin-bottom: 4em;
-    }
-
+   
     i {
         font-size: 1.8em;
         color: #4f514f;
     }
 
-   
+    p {
+        font-size: 2.8em;
+        margin: 0;
+    }
+
+
+
+}
+
+/* Media Query for tablets, portrait */ 
+@media only screen and (min-device-width: 482px) and (max-device-width: 850px) and (orientation: portrait) {
+
+    p {
+        font-size: 3em;
+    }
+
+    header {
+        max-height: 8em;
+    }
     
-   
+    header div a img {
+        max-width: 5.2em;
+    }
+
+    div#main-body {
+        margin-top: 5em;
+        margin-bottom: 3em;        
+    }
+
+    footer {
+        height: 2.2em;
+        font-size: 1.5em;
+    }
+
+    i {
+        font-size: 1.6em;
+        color: #4f514f;
+    }
+
+
 }
-
-@media only screen and (min-device-width: 900px) {
-
-}
-
 
 
 /********************** OLD ***********************/

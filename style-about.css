@@ -27,12 +27,22 @@ div#about-me-text {
 }
 
 
-div#main-body {
-    margin-top: 13em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 9em;
+/******************************************************************/
+/************************* MEDIA QUERIES **************************/
+/******************************************************************/
+
+
+/* Media Query for phones - Landscape */
+@media only screen and (orientation: landscape) {
+
+    div#about-me-text {
+        margin: 2em;
+        padding: 1em 2em;
+    }
+
+    div.about-me-pic {
+        width: 25em;
+    }
+
+    
 }

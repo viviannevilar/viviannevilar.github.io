@@ -123,9 +123,16 @@ div#main-body {
 
 p {
     font-family: Indie Flower;
-    font-size: 1.5em;
+    font-size: 3em;
     color: #4f514f;
 }
+
+footer p {
+    /* font-family: Indie Flower; */
+    font-size: 1.5em;
+    /* color: #4f514f; */
+}
+
 h2 {
     font-family: Titan One;
     font-size: 2.5em;
@@ -164,7 +171,6 @@ footer div {
     }
 
     h1 {
-        font-family: Titan One;
         font-size: 3em;
     }
 

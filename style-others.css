@@ -94,7 +94,7 @@ button {
     border-radius: 5px;
     color: #4f514f;
     font-family: 'Titan One';
-    font-size: 2em;
+    /* font-size: 2em; */
     padding: 0.2em;
     min-width: 5em;
 }
@@ -226,6 +226,10 @@ footer div {
         color: #4f514f;
     }
 
+    button {
+        font-size: 2em;
+    }
+    
 
 }
 

@@ -34,7 +34,7 @@ p {
 
 div#image {
     width: 80%;
-    /* display: flex; */
+    /* display: flex; this was adding extra space before and after my image */ 
     /* justify-content: center; */
 }
 

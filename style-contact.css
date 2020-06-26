@@ -24,7 +24,7 @@ form {
     border-radius: 5px;
     background-color: #FFF;
     padding: 5px;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .form-item input:hover,
@@ -38,7 +38,7 @@ form {
 }
 
 textarea {
-    min-height: 25em;
+    min-height: 17em;
     resize: none;
 }
 

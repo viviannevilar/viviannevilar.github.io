@@ -3,14 +3,14 @@
 
 :root {
     --main-colour: #46d68f;
-    --bg-colour: #fff3d6;
-    --sec-colour: #4f514f;
+    --light-colour: #fff3d6;
+    --gray-colour: #4f514f;
 }
 
 html {
     font-family: 'Titan+One', 'Indie+Flower', sans-serif;
     background-color: var(--main-colour);
-    color: var(--sec-colour);
+    color: var(--gray-colour);
     /* font-size: 1vw; */
 }
 
@@ -46,10 +46,10 @@ img#main-img {
 }
 
 button {
-    background-color: var(--bg-colour);
-    border: 2px solid var(--bg-colour);;
+    background-color: var(--gray-colour);
+    border: 2px solid var(--gray-colour);;
     border-radius: 5px;
-    color: var(--sec-colour);
+    color: var(--light-colour);
     font-family: 'Titan One';
     font-size: 0.9em;
     padding: 0.2em;
@@ -57,10 +57,10 @@ button {
 }
 
 button:hover {
-    border: 2px solid var(--sec-colour);
+    border: 2px solid var(--light-colour);
     font-style: bold;
-    background-color: #4f514f;
-    color: var(--bg-colour);
+    background-color: var(--light-colour);
+    color: var(--gray-colour);
 }
 
 .buttons {
@@ -68,6 +68,10 @@ button:hover {
     justify-content: space-around;
 }
 
+
+p.index {
+    text-align: center;
+}
 
 /********************** MEDIA QUERIES **********************/
 
@@ -174,22 +178,16 @@ button:hover {
     }
 
     button {
-        background-color: var(--bg-colour);
-        border: 2px solid var(--bg-colour);;
         border-radius: 5px;
-        color: var(--sec-colour);
-        font-family: 'Titan One';
         font-size: 1.2em;
         padding: 0.5em;
         min-width: 7.5em;
     }
     
-    button:hover {
-        border: 2px solid var(--sec-colour);
-        font-style: bold;
-        background-color: #4f514f;
-        color: var(--bg-colour);;
-    }
+    /* button:hover {
+        background-color: var(--gray-color);
+        color: var(--light-colour);
+    } */
     
     .buttons {
         display: flex;

@@ -68,6 +68,15 @@ button:hover {
     justify-content: space-around;
 }
 
+button a {
+  color: var(--light-colour);
+  text-decoration: none;
+}
+
+button a:hover {
+  color: var(--gray-colour);
+}
+
 
 p.index {
     text-align: center;
